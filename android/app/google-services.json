@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "406428556163",
+    "project_id": "smetasphere",
+    "storage_bucket": "smetasphere.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406428556163:android:6da562290d0085baf734b6",
+        "android_client_info": {
+          "package_name": "com.example.smetasphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwlK-RC0TCQrAsrRgrl3QfsEsMusZh-b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
