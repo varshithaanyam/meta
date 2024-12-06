@@ -75,6 +75,7 @@ flutter:
     - assets/carousel 1.png
     - assets/aadar[food,healthcare].jpg
     - assets/flexpay[ financial services].png
+    - assets/giva [ accessory ].jpeg.jpg
     - assets/quickerhomes[ real estate].png
     - assets/the summere house[ clothing].png
     - assets/car2.png
@@ -90,6 +91,9 @@ flutter:
     - assets/tvf [entertaiment].png
     - assets/upstox[financial services].png
     - assets/Zenput [food].jpg
+    - assets/SELLERSHOME 1.jpeg
+    - assets/SELLERSHOME 2.jpeg
+    - assets/SELLERSHOME 3.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

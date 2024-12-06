@@ -75,7 +75,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
         appBar: AppBar(
         centerTitle: true,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back, color: Color.fromRGBO(26, 35, 126, 1)),
+          icon: const Icon(Icons.arrow_back, color: Colors.deepPurple),
           onPressed: () {
             Navigator.push(context, MaterialPageRoute(builder:(context) => accsettings()) );// Navigates back to the previous screen
           },
@@ -83,7 +83,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
         title: const Text(
           'Metasphere',
           style: TextStyle(
-            color: Color.fromRGBO(26, 35, 126, 1),
+            color: Colors.deepPurple,
             fontWeight: FontWeight.bold,
             fontSize: 29.0,
           ),
@@ -108,7 +108,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
               const Center(
                 child: Icon(
                   Icons.account_circle,
-                  color: Color.fromRGBO(26, 35, 126, 1),
+                  color: Colors.deepPurple,
                   size: 55.0, // Profile icon size
                 ),
               ),
@@ -122,7 +122,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                   height: 400,
                   padding: const EdgeInsets.all(16.0),
                   decoration: BoxDecoration(
-                    color: Colors.indigo[900], // Container color
+                    color: Colors.deepPurple, // Container color
                     borderRadius: BorderRadius.circular(12.0),
                     boxShadow: const [
                       BoxShadow(
@@ -159,7 +159,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                           children: [
                             const Text('Username'),
                             IconButton(
-                              icon: const Icon(Icons.edit, color: Color.fromRGBO(26, 35, 126, 1)),
+                              icon: const Icon(Icons.edit, color: Colors.deepPurple),
                               onPressed: () {
                                 _editUsername(); // Call edit username dialog
                               },
@@ -182,7 +182,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                           children: [
                             const Text('Email'),
                             IconButton(
-                              icon: const Icon(Icons.edit, color: Color.fromRGBO(26, 35, 126, 1)),
+                              icon: const Icon(Icons.edit, color: Colors.deepPurple),
                               onPressed: () {
                                 // Edit action for email
                               },
@@ -205,7 +205,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                           children: [
                             const Text('Password'),
                             IconButton(
-                              icon: const Icon(Icons.edit, color: Color.fromRGBO(26, 35, 126, 1)),
+                              icon: const Icon(Icons.edit, color: Colors.deepPurple),
                               onPressed: () {
                                 // Edit action for password
                               },

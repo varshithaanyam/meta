@@ -37,7 +37,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
         backgroundColor: const Color(0xFFFFFFFF), 
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, 
-          color: Color.fromRGBO(26, 35, 126, 1)),
+          color: Colors.deepPurple),
 
            onPressed: () {
             Navigator.push(context, MaterialPageRoute(builder:(context) => const HomePage()) );
@@ -48,7 +48,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
         centerTitle: true,
         title: const Text(
           'Metasphere',
-          style: TextStyle(color: Color(0xFF1A237E), fontWeight: FontWeight.bold,fontSize: 29),
+          style: TextStyle(color: Colors.deepPurple, fontWeight: FontWeight.bold,fontSize: 29),
         ),
       ),
       body: Container(
@@ -64,7 +64,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
               const Center(
                 child: Icon(
                   Icons.settings,
-                  color: Color(0xFF1A237E),
+                  color: Colors.deepPurple,
                   size: 70.0, // Increased profile icon size
                 ),
               ),
@@ -78,7 +78,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                   height: 400,
                   padding: const EdgeInsets.all(16.0),
                   decoration: BoxDecoration(
-                    color: const Color(0xFF1A237E), // Container color
+                    color:  Colors.deepPurple, // Container color
                     borderRadius: BorderRadius.circular(12.0),
                     boxShadow: [
                       BoxShadow(
@@ -106,7 +106,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                       // First Row (Edit Profile)
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          foregroundColor: const Color.fromRGBO(26, 35, 126, 1), backgroundColor: Colors.indigo[50],
+                          foregroundColor:  Colors.deepPurple, backgroundColor: Colors.indigo[50],
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8.0),
                           ),
@@ -118,7 +118,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text('Edit Profile'),
-                            Icon(Icons.edit, color: Color(0xFF1A237E)),
+                            Icon(Icons.edit, color: Colors.deepPurple),
                           ],
                         ),
                       ),
@@ -127,7 +127,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                       // Second Row (Push Notifications)
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          foregroundColor: const Color(0xFF1A237E), backgroundColor: Colors.indigo[50],
+                          foregroundColor:  Colors.deepPurple, backgroundColor: Colors.indigo[50],
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8.0),
                           ),
@@ -142,7 +142,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text('Push Notifications'),
-                            Icon(Icons.notification_add, color: Color(0xFF1A237E)),
+                            Icon(Icons.notification_add, color: Colors.deepPurple),
                           ],
                         ),
                       ),
@@ -151,7 +151,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                       // Third Row (Seller Profile)
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          foregroundColor: const Color(0xFF1A237E), backgroundColor: Colors.indigo[50],
+                          foregroundColor:  Colors.deepPurple, backgroundColor: Colors.indigo[50],
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8.0),
                           ),
@@ -164,7 +164,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text('Seller Profile'),
-                            Icon(Icons.sell_rounded, color: Color(0xFF1A237E)),
+                            Icon(Icons.sell_rounded, color: Colors.deepPurple),
                           ],
                         ),
                       ),
@@ -173,7 +173,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                       // Fourth Row (Help)
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          foregroundColor: const Color(0xFF1A237E), backgroundColor: Colors.indigo[50],
+                          foregroundColor:  Colors.deepPurple, backgroundColor: Colors.indigo[50],
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8.0),
                           ),
@@ -188,7 +188,7 @@ class _InvestorRegistrationState extends State<InvestorRegistration> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text('Help'),
-                            Icon(Icons.info_rounded, color: Color(0xFF1A237E)),
+                            Icon(Icons.info_rounded, color: Colors.deepPurple),
                           ],
                         ),
                       ),

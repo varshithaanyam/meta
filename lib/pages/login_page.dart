@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 32,
-                        color: Colors.black,
+                        color: Colors.deepPurple,
                       ),
                     ),
                     const SizedBox(height: 10),
@@ -79,16 +79,16 @@ class _LoginPageState extends State<LoginPage> {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 26,
-                        color: Colors.black,
+                        color: Colors.deepPurple,
                       ),
                     ),
                     const SizedBox(height: 50),
                     // Email text field
                     Container(
                       decoration: BoxDecoration(
-                        color: Colors.indigo[200],
-                        border: Border.all(color: Colors.white),
-                        borderRadius: BorderRadius.circular(12),
+                        color: Colors.grey[200],
+                        border: Border.all(color: const Color.fromRGBO(225, 190, 231, 1)),
+                        borderRadius: BorderRadius.circular(10),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -105,9 +105,9 @@ class _LoginPageState extends State<LoginPage> {
                     // Password text field
                     Container(
                       decoration: BoxDecoration(
-                        color: Colors.indigo[200],
-                        border: Border.all(color: Colors.white),
-                        borderRadius: BorderRadius.circular(12),
+                        color: Colors.grey[200],
+                        border: Border.all(color: const Color.fromRGBO(209, 196, 233, 1)),
+                        borderRadius: BorderRadius.circular(10),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -123,27 +123,30 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     const SizedBox(height: 20),
                     // Login button
-                    GestureDetector(
-                      onTap: login,
-                      child: Container(
-                        padding: const EdgeInsets.all(20),
-                        decoration: BoxDecoration(
-                          color: Colors.deepPurple,
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: const Center(
-                          child: Text(
-                            'Login',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 18,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 25),
+                   GestureDetector(
+  onTap: login,
+  child: Container(
+    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8), // Reduced padding
+    width: 120, // Fixed width
+    height: 35, // Fixed height
+    decoration: BoxDecoration(
+      color: Colors.deepPurple,
+      borderRadius: BorderRadius.circular(15),
+    ),
+    child: const Center(
+      child: Text(
+        'Login',
+        style: TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+          fontSize: 15,
+        ),
+      ),
+    ),
+  ),
+),
+ SizedBox(height: 25),
+
                     // Signup option
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -174,3 +177,4 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
+

@@ -29,7 +29,7 @@ class Guide extends StatelessWidget {
         title: const Text(
           'Metasphere',
           style: TextStyle(
-            color: Color.fromRGBO(26, 35, 126, 1),
+            color: Colors.deepPurple,
             fontWeight: FontWeight.bold,
             fontSize: 29.0,
           ),
@@ -76,7 +76,7 @@ class Guide extends StatelessWidget {
                 child: const Text('Create'),
                 style: ElevatedButton.styleFrom(
                   foregroundColor: Colors.white,
-                  backgroundColor: Colors.indigo[900],shadowColor: Colors.grey,
+                  backgroundColor: Colors.deepPurple,shadowColor: Colors.grey,
                   padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 16),
                   textStyle: const TextStyle(fontSize: 18),
                 ),
@@ -106,7 +106,7 @@ class TipCard extends StatelessWidget {
         text,
         style: const TextStyle(
           fontSize: 19,
-          color: Color.fromRGBO(26, 35, 126, 1),fontWeight: FontWeight.bold,
+          color: Colors.deepPurple,fontWeight: FontWeight.bold,
         ),
       ),
     );
